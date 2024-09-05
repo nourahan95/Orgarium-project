@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+  <html lang="en">    
+    <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <Title>Orgarium</Title>
+     <link rel="stylesheet" href="css/all.css"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    </head> 
+    <body>
+     <!-- header start -->
+    <header class="pt-1 bg-white">
+      <nav class="navbar navbar-expand-lg ">
+          <div class="container mx-auto">
+            <a class="navbar-brand " href="#"><img src="images/asset 0.png" alt="" width="170px" ></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll ms-0 border-lg-1 ps-2" >
+                <li class="nav-item  pt-1  ">
+                  <a class="nav-link active border-3  " aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item  pt-1 ">
+                  <a class="nav-link " href="#">About Us</a>
+                </li>
+                <li class="nav-item dropdown  p-0 mt-1 ms-0 button rounded-2 border-2 mx-2 bg-white ">
+                  <a class="nav-link dropdown-toggle d-inline-block btn px-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                  </a>
+                  <ul class="dropdown-menu border-0">
+                    <li><a class="dropdown-item" href="#">Our Services</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Service Details</a></li>
+                    <li><a class="dropdown-item" href="#">Checkout</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item  pt-1 ">
+                  <a class="nav-link " aria-disabled="true">Pages</a>
+                </li>
+              </ul>
+              <form class="d-inline-block d-lg-flex ms-auto " role="search">
+                <input class="form-control me-2  " type="search" placeholder="Search" aria-label="Search">
+                <br>
+                <button class="btn btn-outline-success " type="submit">Search</button>
+               <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary px-3 ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+               Login
+              </button>
+           <!-- Modal -->
+             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+                <div class="modal-header">
+                 <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                  <div class="modal-body">
+                   <div class="mb-3">
+                   <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                      <div id="passwordHelpBlock" class="form-text">
+                      We will never share your email with any body else
+                      </div>
+                     <label for="inputPassword5" class="form-label mt-3">Password</label>
+                     <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+  
+                     </div>
+                      <div class="form-check form-switch">
+                       <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">Remember Me</label>
+                     </div>
+                       </div>
+                      <div class="modal-footer">
+                       <button type="button" class="btn btn-primary me-auto">Login</button>
+                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     </div>
+                  </div>
+                </div>
+               </form>
+               </div>
+             </div>
+           </nav>
+          </header>
+          <div class="icons">
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        
+ <!-- header end  -->
+    <!-- main start -->
+    <main class="w-100 h-100" >
+      <div id="carouselExampleCaptions" class="carousel slide h-100 position-relative"  data-bs-ride="carousel" >
+          <div class="carousel-indicators position-absolute mb-4">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"   class="buttom-btn" ></button>
+            <button type="button " class="buttom-btn" data-bs-target="#carouselExampleCaptions"  data-bs-slide-to="1" aria-label="Slide 2" ></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3" class="buttom-btn" ></button>
+          </div>
+          <div class="carousel-inner  " >
+            <div class="carousel-item active " >
+              <img src="images/asset 35.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-md-block  mb-5">
+                  <h1>Organic Farms</h1>
+                     
+                    <p  class="d-none  d-md-block ">Welcome to Organic Farms.</p>
+                    <button class="btn btn-">
+                      About US
+                    </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/asset 34.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption  d-md-block  mb-5">
+                  <h1>Organic Farms</h1>
+                     
+                    <p  class="d-none  d-md-block ">Agriculture & Organic Farms. </p>
+                    <button class="btn btn-">
+                      About US
+                    </button>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/asset 36.jpeg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption  d-md-block position-absolute mb-5 ">
+                    <h1>Organic Farms
+                      </h1>
+                    <p  class="d-none  d-md-block " >Organic & Fresh Testy Foods.</p>
+                    <button class="btn btn-">
+                      About US
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev slider-buton" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next slider-buton" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+       </main>
+      <!-- main end -->
+
+    <!-- section1 start -->
+    <div class="card w-100 mb-3 section1-card rounded-0">
+      <div class="card-body">
+        <h3 class="card-title fw-bold">Welcome to “Organic Farms”</h3>
+        <p class="card-text">Sed ut perspiciatis omnis natus error volup accusantiue doloremque laudantium totam aperiam eaque quae abllcs veritatis quasi architecto beatae vitae.
+          . </p>
+        <button class="btn px-3 "><a href="#" class="text-white"></a> About Us </a></button>
+      </div>
+    </div>
+    <hr>
+ <!-- section1 end -->
+<!-- section2 start -->
+<div class="card w-100 mb-3 section1-card rounded-0">
+  <div class="card-body">
+    <h3 class="card-title fw-bold text-center p-4 h1">Welcome to “Latest News Blog”</h3>
+  </div>
+</div>
+<div class="accordion accordion-flush mt-4" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Read Latest News & Blog Get Every Updates!
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Organic Foods
+        Smashing Podcast Episode 44 With Chris Ferdinandi Is The Web Dead.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Read Latest News & Blog Get Every Updates!
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Organic Foods
+        Powerful Terminal And Command-Line Tools Modern Web Development.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Read Latest News & Blog Get Every Updates!
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Animal Farm represents the Russian Revolution of 1917. The old Major represents Karl Marx, Snowball represents Leon Trotsky, Napoleon represents Joseph Stalin, Squealer represents propaganda, and Boxer represents all the Russian workers and workers.
+        .</div>
+    </div>
+  </div>
+</div>
+<hr>
+<!-- section2 end -->
+<!-- section3 start -->
+<section class="section3">
+       
+  <div class="card w-100 mb-3 section1-card rounded-0 pb-5">
+    <div class="card w-100 mb-3 section1-card rounded-0  section-card-head ">
+        <div class="card-body">
+          <h3 class="card-title fw-bold text-center h1 py-0">Translate from English to Arabic
+        </h3>
+        </div>
+      </div>
+    <div class="card-body">
+      <p class="card-text px-4 h5">Write and Translate <span class="text-black " >Press Here</span>
+         </p>
+        <button   onclick="copyText()" class="btn px-3 mx-4"><a href="#" class="text-white" id="copy-button"   ></a> Copy</a></button>
+    </div>
+    <div class="form-floating mx-5">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+        <label for="floatingTextarea2">Translat:</label>
+      </div>
+  </div>
+  <hr>
+</section>
+<!--section3 end  -->
+     <!--section4 start  -->
+     <section class="section3">
+       
+      <div class="card w-100 mb-3 section1-card rounded-0 pb-5">
+        <div class="card w-100 mb-3 section1-card rounded-0 section-card-head">
+            <div class="card-body">
+              <h3 class="card-title fw-bold text-center h1 py-0">raduire du français vers l'arabe</h3>
+            </div>
+          </div>
+        <div class="card-body">
+            <p class="card-text px-4 h5">Write and Translate <span class="text-black " >Press Here</span>
+            </p>
+          <button   onclick="copyText()" class="btn px-3 mx-4"><a href="#" class="text-white" id="copy-button"   ></a> Copy</a></button>
+        </div>
+        <div class="form-floating mx-5">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+            <label for="floatingTextarea2">Translat:</label>
+          </div>
+      </div>
+      <hr>
+</section>
+<!--section4 end  -->
+ <!--section5 start  -->
+ <section class="section5">
+       
+  <div class="card w-100 mb-3 section1-card rounded-0 pb-5">
+    <div class="card w-100 mb-3 section1-card rounded-0 section-card-head">
+        <div class="card-body">
+          <h3 class="card-title fw-bold text-center h1 py-0">Übersetzen aus dem Deutschen ins Arabische</h3>
+        </div>
+      </div>
+    <div class="card-body">
+        <p class="card-text px-4 h5">Write and Translate <span class="text-black " >Press Here</span>
+        </p>
+        <button   onclick="copyText()" class="btn px-3 mx-4"><a href="#" class="text-white" id="copy-button"   ></a> Copy</a></button>
+    </div>
+    <div class="form-floating mx-5 ">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+        <label for="floatingTextarea2">Translat:</label>
+      </div>
+  </div>
+</section>
+<!-- section5 end -->
+<!-- section6 start -->
+<section class="section6">
+  <div class="section6continer ">
+      <div class="card w-100 mb-3 section1-card rounded-0 section-card-head">
+          <div class="card-body">
+            <h3 class="card-title fw-bold text-center h1 py-3">Übersetzen aus dem Deutschen ins Arabische</h3>
+          </div>
+      </div>
+      <div class="container py-5">
+        <div class="section6-cards row ">
+          <div class="cart col-xl-4 col-md-6 col-12  ps-3 px-xl-4 pt-3 ">
+            <div class="cart-body mx-auto  m-0">
+              <div class="card-img card1">
+              </div>
+              <div class="card-body my-4 ">
+                <div class=" justify-content-between d-flex">
+                  <h4 class="card-title d-inline justify-content-between  fw-bold pt-1">Cows</h4>
+                  <a href="#" class="btn bg-white ">Read More</a>
+                </div>
+                <p class="card-text pt-1 text-white">Sed ut perspiciatis omnis natus error volup accusantiue doloremque laudantium totam aperiam eaque quae abllcs veritatis quasi architecto beatae vitae..</p>
+              </div>
+            </div>
+          </div>
+          <div class="cart col-xl-4 col-md-6 col-12  ps-3 px-xl-4 pt-3 ">
+            <div class="cart-body mx-auto  m-0">
+              <div class="card-img card2">
+              </div>
+              <div class="card-body my-4 ">
+                <div class=" justify-content-between d-flex">
+                  <h4 class="card-title d-inline justify-content-between  fw-bold pt-1">Agriculture </h4>
+                  <a href="#" class="btn bg-white ">Read More</a>
+                </div>
+                <p class="card-text pt-1 text-white">Sed ut perspiciatis omnis natus error volup accusantiue doloremque laudantium totam aperiam eaque quae abllcs veritatis quasi architecto beatae vitae..</p>
+              </div>
+            </div>
+          </div>
+          <div class="cart col-xl-4 col-md-6 col-12  ps-3 px-xl-4 pt-3 ">
+            <div class="cart-body mx-auto  m-0">
+              <div class="card-img card3">
+              </div>
+              <div class="card-body my-4 ">
+                <div class=" justify-content-between d-flex">
+                  <h4 class="card-title d-inline justify-content-between  fw-bold pt-1">sunflower </h4>
+                  <a href="#" class="btn bg-white ">Read More</a>
+                </div>
+                <p class="card-text pt-1 text-white">Sed ut perspiciatis omnis natus error volup accusantiue doloremque laudantium totam aperiam eaque quae abllcs veritatis quasi architecto beatae vitae..</p>
+              </div>
+            </div>
+          </div>
+          <div class="cart col-xl-4 col-md-6 col-12  ps-3 px-xl-4 pt-3 ">
+            <div class="cart-body mx-auto  m-0">
+              <div class="card-img card4">
+              </div>
+              <div class="card-body my-4 ">
+                <div class=" justify-content-between d-flex">
+                  <h4 class="card-title d-inline justify-content-between  fw-bold pt-1">golder wheat </h4>
+                  <a href="#" class="btn bg-white ">Read More</a>
+                </div>
+                <p class="card-text pt-1 text-white">Sed ut perspiciatis omnis natus error volup accusantiue doloremque laudantium totam aperiam eaque quae abllcs veritatis quasi architecto beatae vitae..</p>
+              </div>
+            </div>
+          </div>
+          <div class="cart col-xl-4 col-md-6 col-12  ps-3 px-xl-4 pt-3 ">
+            <div class="cart-body mx-auto  m-0">
+              <div class="card-img card1">
+              </div>
+              <div class="card-body my-4 ">
+                <div class=" justify-content-between d-flex">
+                  <h4 class="card-title d-inline justify-content-between  fw-bold pt-1">Cows </h4>
+                  <a href="#" class="btn bg-white ">Read More</a>
+                </div>
+                <p class="card-text pt-1 text-white">Sed ut perspiciatis omnis natus error volup accusantiue doloremque laudantium totam aperiam eaque quae abllcs veritatis quasi architecto beatae vitae..</p>
+              </div>
+            </div>
+          </div>
+          <div class="cart col-xl-4 col-md-6 col-12  ps-3 px-xl-4 pt-3 ">
+            <div class="cart-body mx-auto  m-0">
+              <div class="card-img card1">
+              </div>
+              <div class="card-body my-4 ">
+                <div class=" justify-content-between d-flex">
+                  <h4 class="card-title d-inline justify-content-between  fw-bold pt-1">Cows </h4>
+                  <a href="#" class="btn bg-white ">Read More</a>
+                </div>
+                <p class="card-text pt-1 text-white">Sed ut perspiciatis omnis natus error volup accusantiue doloremque laudantium totam aperiam eaque quae abllcs veritatis quasi architecto beatae vitae..</p>
+              </div>
+            </div>
+          </div>
+
+</section>
+<!-- section6 end -->
+<!-- section7start -->
+<div class="Latest mt-5" ></div>
+<div class="destination">
+    <h2 class=" log pt-3 pb-3 fw-bold text-center h1 py-0">Read Latest News & Blog Get Every Updatesh</h2>
+</div>
+
+<div class="container mt-5">
+    <div class="row ">
+
+
+        <div class="card  cardss cardoo    ">
+            <img src="images/asset 41.jpeg" class="card-img-top rounded" alt="..." width="80%" height="250px">
+            <div class="card-body">
+              <h5 class="card-title  fw-bold pt-1">golder wheat</h5>
+              <p class="card-text pt-1 text-white"> Sed ut perspiciatis omnis natus error volup accusantiue doloremque laudantium totam .</p>
+              <a href="#" class="btn text-bg-white "> News Blog </a>
+            </div>
+          </div>
+          <div class="card  cardss cardoo   ">
+            <img src="images/asset 36.jpeg" class="card-img-top rounded" alt="..." width="80%" height="250px">
+            <div class="card-body">
+              <h5 class="card-title  fw-bold pt-1">Cultivated land</h5>
+              <p class="card-text pt-1 text-white">Smashing Podcast Episode 44 With Chris Ferdinandi Is The Web Dead</p>
+              <a href="#" class="btn text-bg-white "> News Blog </a>
+            </div>
+          </div>
+    </div>
+    <div class="row mt-5">
+
+          <div class="card  cardss cardoo   ">
+            <img src="images/asset 37.jpeg" class="card-img-top rounded" alt="..." width="80%" height="250px">
+            <div class="card-body">
+              <h5 class="card-title  fw-bold pt-1">Agricultural land</h5>
+              <p class="card-text pt-1 text-white"> Smashing Podcast Episode 44 With Chris Ferdinandi Is The Web Dead</p>
+              <a href="#" class="btn text-bg-white ">News Blog </a>
+            </div>
+          </div>
+
+          <div class="card  cardss cardoo   ">
+            <img src="images/asset 43.jpeg" class="card-img-top rounded" alt="..." width="80%" height="250px">
+            <div class="card-body">
+              <h5 class="card-title  fw-bold pt-1"> HotelIrrigate the earth</h5>
+              <p class="card-text pt-1 text-white">Sed ut perspiciatis omnis natus error volup accusantiue doloremque laudantium totam . </p>
+              <a href="#" class="btn text-bg-white "> News Blog </a>
+            </div>
+          </div>
+    </div>
+    
+</div>
+<hr class="bg-black">
+
+<div class="News container">
+  <h2 class="text-center fw-bold h1 pt-1">People Choose Us For Our Great Offers: </h2>
+
+  <div class="card clip1 mb-3 mt-5">
+    <div class="row g-0">
+      <div class="col-md-8 col-12  ">
+        <div class="card-body ms-4">
+          <h5 class="card-title navy fs-3">Organice Food </h5>
+          <i class="fa-regular fa-calendar-days navy"></i>
+          <span class="ego fs-6"> Friday , September 5th 2024</span>
+          <div class="line mt-2"></div>
+          <p class="card-text ego pt-3 fs-5">
+            Natus error sit voluptatem accusantium doloreue laudatiuec totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt .Fresh Avocado
+            Natus error sit volupt ateme accus antium dolores.Organic CornNatus error sit volupt ateme accus antium dolores.Organic Carrot
+             Natus error sit volupt ateme accus antium dolores Icon Organic CarrotNatus error sit volupt ateme accus antium dolores.</p>
+            <button class="ego bb"> Podcast</button>
+            <button class="ego bb"> 55 mins</button>
+            <button class="ego bb"> Play Eposide</button>
+        </div>
+      </div>
+      <div class="col-md-4 col-12 ">
+        <img src="images/asset 13.jpeg" class="rounded-start"  alt="..." height="373px" width="373px">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card clip mb-3 mt-5">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="images/asset 4.jpeg" class="rounded-start"  alt="..." height="350px" width="350px">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title navy fs-3">Best Agriculture & Organic Firms</h5>
+          <i class="fa-regular fa-calendar-days navy"></i>
+          <span class="ego fs-6"> monday , September 7th 2024</span>
+          <div class="line mt-2"></div>
+          <p class="card-text ego pt-3 fs-5">
+            Sed ut perspiciatis omnis natus error volup accusantiue doloremque laudantium totam aperiam eaque quae abllcs veritatis quasi architecto beatae vitae.Natus error sit voluptatem accusantium doloremque laudatium, totam rem aperiam,.
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt Admin Thumb</p>
+              <button class="ego bb"> Podcast</button>
+            <button class="ego bb"> 55 mins</button>
+            <button class="ego bb"> Play Eposide</button>
+        </div>
+      </div>
+    </div>
+  </div>
+           
+  <div class="card clip1 mb-3 mt-5">
+    <div class="row g-0">
+      <div class="col-md-8">
+        <div class="card-body ms-4">
+          <h5 class="card-title navy fs-3"> Avocado fruit</h5>
+          <i class="fa-regular fa-calendar-days navy"></i>
+          <span class="ego fs-6"> Saturday ,September 20th 2024</span>
+          <div class="line mt-2"></div>
+          <p class="card-text ego pt-3 fs-5">
+            Growing avocados with seedlings is the real gateway to harvesting a satisfactory crop and rewarding economic returns for professional farmers, far from the useless techniques that some amateurs resort to, relying on dried fruit seeds, in the hope of a long-term, if not impossible, harvest, according to scientific facts and the opinions of experts and specialists.
+             Source: Growing avocados with seedlings...the best 6 recommendations for a good crop and an abundant return .</p>
+           
+            <button class="ego bb"> Podcast</button>
+            <button class="ego bb"> 55 mins</button>
+            <button class="ego bb"> Play Eposide</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="images/images50.jpg" class="rounded-start"  alt="..." height="373px" width="373px">
+      </div>
+    </div>
+  </div>  
+  
+
+  <div class="card clip mb-3 mt-5">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="images/asset 42.jpeg" class="rounded-start"  alt="..." height="350px" width="350px">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title navy fs-3">golder wheat</h5>
+          <i class="fa-regular fa-calendar-days navy"></i>
+          <span class="ego fs-6"> Tuesday , September 10th 2024</span>
+          <div class="line mt-2"></div>
+          <p class="card-text ego pt-3 fs-5">
+            
+            Wheat is a strategic product and a major source of food both in our country and throughout the world. The total area of ​​agricultural land in Konya is 2.6 million hectares and wheat is grown on about 700,000 hectares of it. Our region produces about 10% of Turkey's wheat production and meets about 20% of certified wheat seed production..</p>
+            <button class="ego bb"> Podcast</button>
+            <button class="ego bb"> 55 mins</button>
+            <button class="ego bb"> Play Eposide</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>   
+       <!--------------------About us--------------------------->
+
+    <div class="About-us mt-5 ">
+      <div class="container sss">
+        <div class="d-flex  ">
+
+          <div class="twiter social mt-3 mb-3 col-md-6 col-lg-3  ">
+            <h2 class="pt-3 navy">Subscribe</h2>
+            <img src="images/1-7.jpeg" class="rounded" width="80px">
+            <br>
+            <a href="#" class="pt-4 ego">Go Now</a>
+          </div>
+
+          <div class="whatsap social mt-3 mb-3 socialo  col-md-6 col-lg-3  ">
+            <h2 class="pt-3 navy">Follow</h2>
+            <img src="images/793785.jpg" class="rounded" width="80px">
+            <br>
+            <a href="#" class="pt-3 ego">Go Now</a>
+          </div>
+
+          <div class="linkedin social mt-3 mb-3 socialo col-md-6 col-lg-3    ">
+            <h2 class="pt-3 navy">Like </h2>
+            <img src="images/pngtree-like-icon-button-png-image_8793173.png" class="rounded" width="80px">
+            <br>
+            <a href="#" class="pt-3 ego">Go Now</a>
+          </div>
+
+          <div class="instagram social mt-3 mb-3 socialo   col-md-6 col-lg-3   ">
+            <h2 class="pt-3 navy">watch</h2>
+            <img src="images/image.jpg" class="rounded" width="80px">
+            <br>
+            <a href="#" class="pt-3 ego">Go Now</a>
+          </div>
+
+        </div>
+      </div>
+    </div>   
+<!------------Footer----------------------------->
+<footer class="sear  footer mt-5">
+  <div class="container ">
+    <div class="d-flex">
+    <div class=" mt-4 foot  ">
+      <div class="infimg mt-4">
+      <img src="images/asset 30.png" class="logo   ">
+      <div class="line1 mt-4"></div>
+      <p class="text-light pt-3"> Tel :+012(345) 67 89</p>
+      <p class="text-light"> Adress : Egypt</p>
+      <p class="text-light"> Fex : 000-000-000</p>
+      
+    </div>
+    </div>
+    <div class=" mt-4 foot footo ">
+      <div class="infimg mt-4">
+        <img src="images/asset 30.png" class="logo  ">
+      <span class="ps-2 text-light"> Links</span>
+      <div class="line2 mt-4"></div>
+      <p class="text-light pt-3"> Visit Us</p>
+      <p class="text-light"> Take A Look</p>
+      <p class="text-light"> You Are Imprtant To Us</p>
+    </div>
+    </div>
+    
+    <div class=" mt-4 foot footo ">
+      <div class="infimg mt-4">
+      <img src="images/asset 30.png" class="logo ">
+      <span class="ps-2 text-light">Vision</span>
+      <div class="line1 mt-4"></div>
+      <p class="text-light pt-3"> Service For All</p>
+      <p class="text-light"> Provide Best Services</p>
+      <p class="text-light"> You Will Be Better Than Befor</p>
+    </div>
+    </div>
+  </div>
+  </div>
+  <div class="line4"></div>
+  <h3 class="ego text-center pt-4"> COPYRIGHT &copy; 2024 TO NORHAN HASSN ZEN</h3>
+  </footer>  
+  <script src="JS/script.js"></script>
+      <script src="JS/bootstrap.bundle.min.js"></script>
+ </body>
+</html>  
+
+   
+    
+      
+ 
+     
+
+
+
+
+
+
+
+
+
+
+
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 
+             
+
+
+
+
+
+
+
+
+
+
+
+
+              
+          
+                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                     
+                     
+           
+                 
+
+
+
+
+
+
+               
+
+
+
+
+
+
+
+
+
+
+                    
+                   
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+                  
+
+
+
+
+
+
+
+
+                 
+               
+
+
+
+
+
+
+
+
+                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                
+
+                
+        
+                  
+                   
+                    
+
+                          
+                 
+
+          
+
+
+
+
+
+
+
+
+
+              
+            
+          
+
+                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+               
+                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+
+
+
+
+
+
+
+
+                 
+
+               
+                
+
+             
+               
+              
+
+           
+               
+
+
+               
+             
+
+            
+              
+           
+               
+               
+             
+
+       
+
+
+
+
+
+
+   
+  
+
+
+     
+
+
+
+
+
+
+
+
